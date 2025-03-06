@@ -21,3 +21,10 @@ This project demonstrates web scraping of famous quotes using Python and Beautif
 
 **•** Pandas (for data storage & processing)
 
+
+**Import Libraries**
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+from tqdm import tqdm
