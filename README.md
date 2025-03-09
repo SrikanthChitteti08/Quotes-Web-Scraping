@@ -23,13 +23,17 @@ This project demonstrates web scraping of famous quotes using Python and Beautif
 
 
 
-**Import Libraries**
+## **Import Libraries**
 import pandas as pd
+
 import requests
+
 from bs4 import BeautifulSoup
+
 from tqdm import tqdm
 
-To Load BeautifulSoup
+
+## **To Load BeautifulSoup**
 res = requests.get('https://quotes.toscrape.com/')
 soup = BeautifulSoup(res.text, 'html.parser')
 print(soup.find('span', class_ = 'text').text[1:-1])
