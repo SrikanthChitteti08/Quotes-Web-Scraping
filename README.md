@@ -23,7 +23,8 @@ This project demonstrates web scraping of famous quotes using Python and Beautif
 
 
 
-## **Import Libraries**
+## **Importing Libraries**
+
 import pandas as pd
 
 import requests
